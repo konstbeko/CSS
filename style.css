@@ -1,0 +1,184 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    background-color: #1F2937;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: grey;
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 80px 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Abstand zwischen h1, p und button */
+}
+
+.first-left h1 {
+    font-size: 48px;
+    margin: 0; /* Entfernt zusätzliche Standardabstände */
+}
+
+.first-left p {
+    font-size: 18px;
+    margin: 0;
+}
+
+button {
+    background-color: #724aff;
+    color: white;
+    border: none;
+    padding: 8px 40px; /* Weniger Innenabstand für kompaktere Höhe */
+    border-radius: 5px; /* Leichtes Abrunden für ein dezenteres Aussehen */
+    font-size: 18px; /* Kleinere Schriftgröße */
+    cursor: pointer;
+    align-self: start; /* Verhindert, dass der Button die volle Breite einnimmt */
+    width: auto; /* Setzt die Breite automatisch auf den Inhalt */
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(9, 9, 9);
+    background-color: #ffffff;
+    padding: 80px 300px;
+    font-family: 'Roboto', sans-serif;
+    gap: 50px;
+}
+
+.box-pos1 {
+    display: flex;
+    gap: 150px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: solid 3px #724aff;
+    border-radius: 10px;
+}
+
+.text {
+    max-height: 200px;
+    max-width: 210px;
+    text-align: center;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedee4;
+    padding: 100px 400px;
+    font-family: 'Roboto', sans-serif;
+    gap: 20px;
+}
+
+.third-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.third-2 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: white;
+    padding: 80px 300px;
+    font-family: 'Roboto', sans-serif;
+    gap: 50px;
+}
+
+.rechteck {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 1200px;
+    background-color: #724aff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.fourth-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 0px;
+}
+
+.button2 {
+    background-color: #724aff;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    margin-right: 100px;
+}
+
+.fourth-1 h2,
+.fourth-1 p {
+    margin: 0; /* Entfernt die Standardabstände */
+}
+
+
+.last {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    background-color: #1F2937;
+    color: rgb(214, 214, 214);
+    font-family: 'Roboto', sans-serif;
+}
